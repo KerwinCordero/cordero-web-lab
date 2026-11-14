@@ -1,0 +1,152 @@
+body {
+    background-color: #0f172a;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1e293b;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+}
+
+header h1 {
+    color: #38bdf8;
+    font-size: 28px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #38bdf8;
+}
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+#inicio {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#inicio h2 {
+    font-size: 36px;
+    color: #38bdf8;
+    margin-bottom: 20pc;
+}
+
+#inicio h3 {
+    font-size: 22px;
+    color: #cbd5e1;
+    margin-bottom: 15px;
+}
+
+#inicio p {
+    font-size: 18px;
+    color: #94a3b8;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#sobre-mi {
+    padding: 60px 20px;
+}
+
+#sobre-mi h2 {
+    font-size: 30px;
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+#sobre-mi p {
+    font-size: 18px;
+    color: #94a3b8;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#habilidades {
+    padding: 60px 20px;
+}
+
+#habilidades h2 {
+    font-size: 30px;
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+#habilidades ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#habilidades ul li {
+    background-color: #1e293b;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+#habilidades ul li:hover {
+    background-color: #2563eb;
+    transform: translateY(-5px);
+}
+
+#proyectos {
+    padding: 60px 20px;
+}
+
+#proyectos h2 {
+    font-size: 30px;
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+#proyectos article {
+    background-color: #1e293b;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 700px;
+    transition: all 0.3s ease;
+}
+
+#proyectos article h3 {
+    font-size: 22px;
+    color: #38bdf8;
+    margin-bottom: 15px;
+}
+
+#proyectos article p {
+    font-size: 16px;
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+#proyectos article:hover {
+    transform: translateY(-5px);
+    background-color: #263449;
+}
